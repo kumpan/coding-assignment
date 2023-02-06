@@ -87,8 +87,22 @@ Exempel-respons, på ett request till url `/single?id=04000US10&includeIncome=tr
 - Response bör vara JSON
 - Requests som inte matchar spec ovan bör svara med lämplig felkod (t ex 404, om användaren försöker requesta en URL som inte finns)
 - Oväntade fel (t ex din datakälla är nere) bör svara med lämplig felkod
-- Enhetstester är inte ett krav, men ett uppskattat tillägg
+
+## Valbara tillägg 
+
+Nedan följer en lista på valbara tillägg till din applikation. Vi förväntar oss inte att du gör alla dessa, utan väljer ut ett eller ett par av kraven som du tycker är en lämplig vidareutveckling. Vilken är din starka sida att briljera med?
+
+- Tester. Man kan tänka sig både lämpliga enhetstest och integrationstest för en applikation som ovan.
+- Caching. Kan man använda sig av caching på något smart sätt för att minska antalet requests vi gör mot datakällan?
+- Mellanlagring. Kan man använda sig av nån sorts databaslösning (t ex en in-memory DB) för att göra applikationen snabbare?
+- Permissions & säkerhet. Ponera att applikationen bara får användas av en utvald grupp personer. Kan man lägga på nån sorts säkerhetslösning för att göra den åtkomstskyddad?
+- En hostad lösning. För att imponera extra kan du slänga upp applikationen själv på en server och delge oss länken. Vi förväntar oss inte att du köper hosting, men du kanske har egen egen server, eller så finns det gratistjänster man kan nyttja sig av: https://gist.github.com/bmaupin/d2d243218863320b01b0c1e1ca0cf5f3
+
 
 ## Tidsåtgång
 
 Kodprovet bör inte ta längre än ett par timmar. Vi förväntar oss alltså inte att du ska lägga flera dagar på detta, och kan därför acceptera vissa saknade features. Det är dock uppskattat om du funderar på hur du hade vidareutvecklat applikationen om du hade oändligt med tid! 
+
+## Leverans
+
+Samla ihop all källkod, inklusive instruktioner hur man bör köra applikationen, i en zip-fil och mejla till oss! 
