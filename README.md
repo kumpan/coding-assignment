@@ -83,7 +83,7 @@ Exempel-respons, på ett request till url `/single?id=04000US10&includeIncome=tr
 
 ## Ytterliggare krav
 - Båda endpoints bör vara HTTP GET
-- I exemplet ovan har parametrar satts som query parameters, men det är tillåtet att använda andra typer av parametrar, så länge det blir använtbart!
+- I exemplet ovan har parametrar satts som query parameters, men det är tillåtet att använda andra typer av parametrar, så länge det blir användbart!
 - Response bör vara JSON
 - Requests som inte matchar spec ovan bör svara med lämplig felkod (t ex 404, om användaren försöker requesta en URL som inte finns)
 - Oväntade fel (t ex din datakälla är nere) bör svara med lämplig felkod
