@@ -20,7 +20,7 @@ Du ska utveckla en körbar applikation som serverar ett API med information om a
 Följande endpoints bör finnas:
 
 ### /top
-En lista på amerikanska stater, sorterad på befolkningsmängd. Endpointen ska även stödja en parameter “limit” som anger hur många stater topplistan ska innehålla. Alltså ska ett request mot `/top?limit=5` svara med en sorterad lista på de 5 mest befolkade staterna. 
+En lista på amerikanska stater, sorterad på befolkningsmängd. Endpointen ska även stödja en valbar parameter “limit” som anger hur många stater topplistan ska innehålla. Alltså ska ett request mot `/top?limit=5` svara med en sorterad lista på de 5 mest befolkade staterna. Om limit är utelämnad bör du tolka detta som en limit på 10.
 
 Responset bör vara en sorterad JSON-lista, där varje enskilt objekt bör innehålla: 
 - Namn på staten
