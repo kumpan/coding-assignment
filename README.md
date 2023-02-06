@@ -1,11 +1,10 @@
 
 # Kodprov - American API!
 
-Kumpan har fått ett uppdrag av en amerikansk myndighet att ta fram en app som visualiserar hur det egentligen står till med befolkningen i USA. För att komma igång med appen behöver vi först en backend att prata med. Det är här du kommer in! Din uppgift blir att ta fram en backend-applikation som serverar ett API med data om amerikansk befolkning.
+Kumpan har fått i uppdrag av en amerikansk myndighet att ta fram en app som visualiserar hur det egentligen står till med befolkningen i USA. För att komma igång med appen behöver vi först en backend att prata med. Det är här du kommer in! Din uppgift blir att ta fram en backend-applikation som serverar ett API med data om amerikansk befolkning.
 
 ## Datakällor
 Som datakälla kan man använda tjänsten dataUSA: https://datausa.io/about/api/
-
 
 Med olika API-anrop till DataUSAs api kan man få fram t ex:
 - Befolkning per stat https://datausa.io/api/data?drilldowns=State&measures=Population&year=latest 
